@@ -1,0 +1,220 @@
+.container-list{
+  display: grid;
+  margin: 10%;
+  grid-template-areas: 
+  "header header k k"
+  "a a f b"
+  "c c c d"
+  "e e e g"
+  "comment comment comment allergi";
+  margin-top: 100px;
+
+}
+
+.grocerytittel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  justify-items: left;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.title-box{
+  grid-area: header;
+  
+  margin-bottom: 3%;
+}
+
+.card-text{
+  justify-self: center;
+}
+
+.grocery-list{
+  grid-area: a;
+}
+
+.add-grocery, .search-user{
+  justify-self: center;
+  align-self: center;
+}
+.add-grocery{
+  display: grid;
+  grid-area: b;
+}
+
+.search-user{
+  display: grid;
+  margin-top: 2vh;
+  grid-area: g;
+}
+
+.members h5 {
+  justify-self: left;
+  margin-left:5px
+}
+
+.members {
+  margin-top: 2vh;
+  background-color:	#f8f8f8;
+  box-shadow: 0 1px 4px rgba(0,0,0,.03);
+  border: 1px solid rgba(0,0,0,.04);
+  display: grid;
+  grid-area: d;
+  width: 209.206px;
+  justify-self: center;
+}
+
+
+
+.member-users {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: left;
+  margin-left: 5px;
+  margin-bottom: 3px
+}
+
+.member-users button {
+  grid-column: 3;
+}
+
+.comments{
+  grid-area: comment;
+}
+
+.delete-grocery{
+  background: #ff4040;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  border: none;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 0px;
+  text-indent: -3px;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  justify-self: right;
+}
+
+.comment{
+  margin-bottom: 20px;
+  
+  justify-self: center;
+  width:70%;
+}
+
+.no-comment{
+  margin-bottom: 20px;
+  
+  justify-self: center;
+  color: #fff;
+  width:70%
+}
+
+.commentbox{
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.03);
+  border: 1px  solid rgba(0,0,0,.04);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 60%
+}
+
+
+.boxNewComment{
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.03);
+  border: 1px solid rgba(0,0,0,.04);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 40%
+
+}
+
+#NewComment {
+  border: none;
+  outline: none;
+  
+
+}
+  
+.comment-username {
+  color: #2C3E50; 
+}
+
+.delete-comment{
+  background-color: #606060;
+  border-color: rgba(0,0,0,.04);
+  color: #fff;
+  float: right;;
+  
+}
+
+.comment-comment{
+  width:410;
+}
+
+.comment-line{
+  width:200%;
+}
+
+.comment-name{
+  margin-right: 7px;
+}
+
+
+.add-allergy {
+  background-color: #606060;
+  border-color: rgba(0,0,0,.04);
+  color: #fff;
+}
+
+.allergy-list {
+  grid-area: a;
+  margin-left: 5 px;
+
+}
+
+.new-allergy{
+  margin-top: 15px;
+}
+
+
+.delete-allergies{
+  background-color: #606060;
+  border-color: rgba(0,0,0,.04);
+  color: #fff;
+  float: left;
+  margin-top: 3px;
+  
+}
+
+.allergi{
+  
+  grid-area: allergi;
+  margin-top: 20px;
+  background-color:	#f8f8f8;
+  justify-self: left;
+  width: 209.206px;
+  justify-self: center;
+  max-height: 50%;
+}
+
+.allergi h5, p{
+  justify-self: left;
+  margin-left:5px;
+}
+

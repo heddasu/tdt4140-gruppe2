@@ -1,0 +1,67 @@
+.grid {
+    display: grid;
+    grid-row-gap: 10px;
+    margin-left: 33%; 
+    margin-right: 33%;
+    box-shadow: 0 1px 4px rgba(0,0,0,.03);
+    border: 1.2px solid rgba(0,0,0,.04);
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#login {
+    text-align: center;
+    display: block;
+    border-radius: 18px;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+  .grid-input {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: #E8E8E8;
+    outline: none;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+
+  .grid-input:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .submit-button:hover {
+    opacity: 0.8;
+  }
+
+  .password-box {
+    margin-top: 20px;
+    margin-bottom: 15px
+  }
+
+  .login-text{
+    border-bottom: 1.2px solid #ccc;
+    margin-bottom: 17px;
+  }
+
+  .signup-link{
+    margin-top: 0px;
+  }

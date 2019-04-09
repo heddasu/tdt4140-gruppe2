@@ -1,0 +1,8 @@
+{
+  "name": "gruppe-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.stud.idi.ntnu.no/programvareutvikling-v19/gruppe-2.git",
+  "author": "Monika Halina Muzyk <monikahm@stud.ntnu.no>",
+  "license": "MIT"
+}

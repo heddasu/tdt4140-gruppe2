@@ -1,0 +1,116 @@
+.container{
+    display: grid;
+    margin-top: 100px;
+    grid-template-areas: 
+    "header header header header"
+    "a e e d"
+    "b b b d"
+    "c c c d";
+    margin:5%;
+    margin-top: 100px;
+}
+  
+  /*css for shoppinglists*/
+  /* grid-area: where html tag will be in grid + other css adjustments */
+.container h2{
+    padding-bottom: 5vh;
+    grid-area: header;
+    justify-self: center;
+}
+  
+.add-list{
+    grid-area: d;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+}
+  
+.shopping-list{
+    grid-area: e;
+    width: 70%;
+    max-width: 70%;
+    min-width: 70%;
+}
+  
+.listetittel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    justify-items: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+  
+.listetittel a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.card-title{
+    grid-column: auto;
+    margin: 0;
+    font-size: 17px;
+    justify-self: center;
+}
+   
+.submit {
+    border: none;
+    background-color:  	#606060;
+    color: #fff;
+    padding:12px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+  
+.xBtn{
+    background: #ff4040;
+  color: white;
+  padding: 13px;
+  text-align: center;
+  border: none;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 0px;
+  text-indent: -3px;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  justify-self: right
+  
+  
+}
+  
+#myInput, #Description, #NewGrocery, #NewList {
+    font-size: 14px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    margin-bottom: 10px; /* Add some space below the input */
+}
+    
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #606060; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+  
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+  
+

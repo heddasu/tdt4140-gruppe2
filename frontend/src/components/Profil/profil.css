@@ -1,0 +1,63 @@
+.container{
+  display: grid;
+  margin-top: 100px;
+  grid-template-areas: 
+  "header header header header"
+  "a a a d"
+  "b b b d"
+  "c c c d";
+  margin:5%;
+  margin-top: 100px;
+}
+
+.grid-input {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 0px;
+  background-color: #E8E8E8;
+  outline: none;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.login-text{
+  border-bottom: 1.2px solid #ccc;
+  margin-bottom: 17px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.header {
+  border-bottom: 1.2px solid #ccc;
+  margin-bottom: 17px;
+  align-self: center;
+}
+
+.allergy-list {
+  grid-area: a;
+  margin-left: 5 px;
+}
+
+.new-allergy {
+  grid-area: b;
+}
+
+
+.add-allergy {
+  border: none;
+  background-color: #606060;
+  color: #fff;
+  padding: 12px 40px;
+  font-size: 15px;
+}
